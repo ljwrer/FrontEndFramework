@@ -17,7 +17,22 @@
 //}
 
 /* namespace */
-namespace("math",[],function(){
+//namespace("math",[],function(){
+//	function add(a,b){
+//		return a+b;
+//	}
+//	function sub(a,b){
+//		return a-b;
+//	}
+//	return{
+//		add:add,
+//		sub:sub
+//	}
+//})
+
+/* AMD */
+
+define([],function(){
 	function add(a,b){
 		return a+b;
 	}
@@ -27,7 +42,7 @@ namespace("math",[],function(){
 	return{
 		add:add,
 		sub:sub
-	}
+	};
 })
 
 
